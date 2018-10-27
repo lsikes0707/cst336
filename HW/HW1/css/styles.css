@@ -55,8 +55,7 @@ footer {
 }
 
 table {
-    
-    margin: 0px auto;
+    margin: 5px auto;
 }
 
 td {
@@ -82,6 +81,6 @@ ul {
     padding-left: 200px;
 }
 
-.language {
+.langthm {
     color: yellow;
 }

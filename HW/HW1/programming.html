@@ -23,6 +23,7 @@ in html
     <!-- This is the body -->
     <!-- This is where we place the content of our website -->
     <body>
+        <main>
         <div id="header">
             <h1> Programming </h1>
         </div>
@@ -37,64 +38,82 @@ in html
         <!-- div with an id called content -->
         <div id="content">
             
-            <p id="welcomeText">What language should be learned? What are the common concepts in many of the languages today? See below to get an idea.</p><br />
             <figure id="computerScience">
-                <img src="/cst336/HW/HW1/imgs/programmingLanguages.jpeg" alt="What Programming language is right for me?" width="50%" height="auto"/>
+                <img src="imgs/programmingLanguages.jpeg" alt="What Programming language is right for me?" width="50%" height="auto"/>
             </figure>
             
-            <p id="welcomeText">The table below contains my preferred arsenal of languages, this list is not for everyone.</p><br />
-            <br />
-            <br /><br />
-            
-            <!-- Create the table to hold experience data -->
-            <table>
-                <tr id="table-header">
-                    <td><strong>Programming Language</strong></td>
-                </tr>
-                <tr class="table-row">
-                    <td>Python</td>
-                </tr>
-                <tr class="table-row">
-                    <td>JavaScript</td>
-                </tr>
-                <tr class="table-row">
-                    <td>Java</td>
-                </tr>
-                <tr class="table-row">
-                    <td>C++</td>
-                </tr>
-                <tr class="table-row">
-                    <td>PHP</td>
-                </tr>
-                <tr class="table-row">
-                    <td>HTML</td>
-                </tr>
-            </table>
-            
-            <br />
-            <p id="welcomeText">This list provides general themes that can be found in many modern programming languages:</p>
-            <br />
-            <br /><br />
-            <ul>
-                <li><span class ="language">Variables</span></li>
-                <li><span class ="language">Operators</span></li>
-                <li><span class ="language">Strings and other basic data types</span></li>
-                <li><span class ="language">Conditionals</span></li>
-                <li><span class ="language">Loops</span></li>
-                <li><span class ="language">Functions</span></li>
-                <li><span class ="language">Classes and Objects</span></li>
-                <li><span class ="language">Dictionaries</span></li>
-                <li><span class ="language">Libraries</span></li>
-            </ul>
-
+            <p id="welcomeText">What language should be learned? What are the common concepts in many of the languages today? See below to get an idea.</p><br />
+            <p id="welcomeText">The tables shown contain my preferred arsenal of Programming Languages and Programming Themes.</p><br />
             <br />
             <br /><br />
 
-            <br /><em>"Why did the programmer quit their job? <br /> Because they didn't get arrays."</em><br />
-            <a href="https://www.hongkiat.com/blog/programming-jokes/">-Hongkiat</a>-
-                    
+            <br /><br />
         </div>
+        <!-- Create the table to hold Programming Language data -->
+        <table>
+            <tr id="table-header">
+                <td><strong>Programming Language</strong></td>
+            </tr>
+            <tr class="table-row">
+                <td>Python</td>
+            </tr>
+            <tr class="table-row">
+                <td>JavaScript</td>
+            </tr>
+            <tr class="table-row">
+                <td>Java</td>
+            </tr>
+            <tr class="table-row">
+                <td>C++</td>
+            </tr>
+            <tr class="table-row">
+                <td>PHP</td>
+            </tr>
+            <tr class="table-row">
+                <td>HTML</td>
+            </tr>
+        </table>
+            <div id="themes">
+                <!-- Create the table to hold theme data -->
+                <table>
+                    <tr id="table-header">
+                        <td><strong>Programming Themes</strong></td>
+                    </tr>
+                    <tr class="table-row">
+                        <td>Variables</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td>Operators</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td>Built-In types</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td>Conditionals</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td>Loops</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td>Functions</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td>Classes and Objects</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td>Dictionaries</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td>Libraries</td>
+                    </tr>
+                <table>
+            </div>
         
+            <br /><em>"Why did the programmer quit their job? <br /> Because they didn't get arrays."</em><br />
+                <a href="https://www.hongkiat.com/blog/programming-jokes/">-Hongkiat</a>
+            
+        </main>
+            
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->
         <footer>
