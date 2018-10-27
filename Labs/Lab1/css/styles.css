@@ -33,6 +33,10 @@ nav a:hover, #current { /*pseudo class*/
     font-size: 1.3em;
 }
 
+#me {
+    border-radius:100px;
+}
+
 #header {
     text-align: center;
     color: white;
