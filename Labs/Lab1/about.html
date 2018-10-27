@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<!--
+
+First Website
+and comment
+in html
+(comments can span multiple lines)
+
+-->
+
+<!-- This is the head -->
+<!-- All styles and javascript go inside the head -->
+    <head>
+        <title> Lab 1: Personal Portfolio </title>
+        <meta charset="utf-8" />
+        
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    </head>
+<!-- closing head -->
+    <!-- This is the body -->
+    <!-- This is where we place the content of our website -->
+    <body>
+        <div id="header">
+            <h1> Lacey Sikes </h1>
+        </div>
+        <nav>
+            <hr width="50%" />
+            <a href="index.html">Home</a>
+            <a href="about.html" id="current">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="http://csumb.edu">CSUMB</a>
+        </nav>
+        
+        <!-- div with an id called content -->
+        <div id="content">
+            <!-- Create the table to hold experience data -->
+            <table>
+                <tr id="table-header">
+                    <td><strong>Programming Language</strong></td>
+                    <td><strong>Years Experience</strong></td>
+                </tr>
+                <tr class="table-row">
+                    <td>Java</td>
+                    <td>3</td>
+                </tr>
+                <tr class="table-row">
+                    <td>C++</td>
+                    <td>2</td>                
+                </tr>
+                <tr class="table-row">
+                    <td>PHP</td>
+                    <td>1</td>                
+                </tr>
+            </table>
+            
+            <ul>
+                <li><span class ="hobby">Video games</span>: I own four consoles and enjoy all kinds of games. My favorite is the legend of Zelda</li>
+                <li><span class ="hobby">Soccer</span>: I am a part of a team and we play every Saturday. I'm the goalie.</li>
+                <li><span class ="hobby">Music</span>: I love various types of music but my favorite is R&B and Pop.</li>
+                <li><span class ="hobby">Programming</span>: I spend at least two hours every day ysing and learning programming languages.</li>
+            </ul>
+        
+        </div>
+        
+        <!-- This is the footer -->
+        <!-- The footer goes inside the body but not always -->
+        <footer>
+            <hr>
+            Course Name. 2018&copy; Sikes <br />
+            <strong>Disclaimer:</strong> The information in this webpage is fictitous. <br />
+            It is used for academic purposes only.
+            <figure id="csumbLogo">
+                <img src="/cst336/Labs/Lab1/img/csumbLogo.jpg" alt="Logo for CSUMB" width="50"/>
+            </figure>
+        </footer>
+        <!-- closing footer -->
+        
+    </body>
+    <!-- closing body -->
+
+</html>
