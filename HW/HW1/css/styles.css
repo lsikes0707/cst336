@@ -84,3 +84,22 @@ ul {
 .langthm {
     color: yellow;
 }
+
+tr:hover {
+    background-color: #F61414;
+    text-transform: uppercase;
+}
+
+td:hover {
+    background-color: #F61414;
+}
+
+#computerScience {
+     width: 100%;
+     height: auto;
+}
+
+#computerScience:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
