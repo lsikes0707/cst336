@@ -28,15 +28,14 @@ nav a:hover, #current { /*pseudo class*/
     float:left;
 }
 
-#computerScience {
-    border-radius: 100px;
-}
-
 #welcomeText {
     text-align: left;
     font-size: 1.3em;
 }
 
+#csumbLogo {
+     width:50;
+}
 #header {
     text-align: center;
     color: white;
@@ -95,8 +94,9 @@ td:hover {
 }
 
 #computerScience {
-     width: 100%;
-     height: auto;
+    width: 100%;
+    height: auto;
+    border-radius: 100px;
 }
 
 #computerScience:hover {
