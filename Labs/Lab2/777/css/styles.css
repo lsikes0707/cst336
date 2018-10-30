@@ -26,18 +26,18 @@
     }
     
     #reel1{
-        left:145px;
+        left:505px;
     }
     #reel2{
-        left:252px;
+        left:612px;
     }
     #reel3{
-        left:357px;
+        left:717px;
     }
     
     input{
         top:75px;
-        left:530px;
+        left:890px;
         position:absolute;
         font-size:1.3em;
         background-color: Transparent;
@@ -54,6 +54,8 @@
      position:absolute;
      text-align:center;
      top:450px;
+     left:350px;
+     font-family: 'Baloo Bhaijaan', cursive;
      font-size:1.5em;
      line-height: .7em;
     }

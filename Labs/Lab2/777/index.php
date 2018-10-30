@@ -20,6 +20,7 @@ include 'inc/functions.php';
             <form>
                 <input type="submit" value="Spin!"/>
             </form>
+            
         </div>
             
     </body>
