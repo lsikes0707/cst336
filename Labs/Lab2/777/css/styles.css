@@ -22,17 +22,17 @@
     
     #reel1, #reel2, #reel3 {
         top:248px;
-        position:absolute;
+        position: absolute;
     }
     
     #reel1{
-        left:505px;
+        left:555px;
     }
     #reel2{
-        left:612px;
+        left:662px;
     }
     #reel3{
-        left:717px;
+        left:767px;
     }
     
     input{
@@ -54,7 +54,7 @@
      position:absolute;
      text-align:center;
      top:450px;
-     left:350px;
+     left:400px;
      font-family: 'Baloo Bhaijaan', cursive;
      font-size:1.5em;
      line-height: .7em;
