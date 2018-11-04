@@ -8,9 +8,10 @@
         <title> Homework 2: Now With Code Restrictions </title>
         <meta charset="utf-8" />
         
-        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
         
         <style>
+
           .flip-card {
             background-color: transparent;
             width: 300px;
@@ -49,7 +50,28 @@
           color: white;
           transform: rotateY(180deg);
         }
-</style>
+        
+        .button {
+          padding: 15px 25px;
+          font-size: 24px;
+          text-align: right;
+          cursor: pointer;
+          outline: none;
+          color: #fff;
+          background-color: #4CAF50;
+          border: none;
+          border-radius: 15px;
+          box-shadow: 0 9px #999;
+        }
+
+        .button:hover {background-color: #3e8e41}
+
+        .button:active {
+          background-color: #3e8e41;
+          box-shadow: 0 5px #666;
+          transform: translateY(4px);
+        }
+      </style>
     </head>
 <!-- closing head -->
     <!-- This is the body -->
@@ -69,7 +91,7 @@
           <p>-Listen to classical music while learning</p>
           <p>-Keep some kind of mint handy while you study</p>
           
-          <p>Enjoy some Mozart while you scroll:</p>
+          <p>Enjoy some Mozart while you practice:</p>
           <audio controls>
             <source src="audio/Mozart.mp3" type="audio/mpeg">
           </audio>
@@ -79,7 +101,7 @@
         <div class="flip-card-inner">
         <div class="flip-card-front">
           <h2>Integral</h2>
-          <?php $img = array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13);
+          <?php $img = array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12);
                 $random = array_rand($img); ?>
           <img src='img/<?php echo $random; ?>.png' alt="Integral<?php echo $random; ?>" style="width:300px;height:300px;">
         </div>
@@ -91,7 +113,7 @@
         </div>
         </div>
 
-        <button class="button">Refresh</button>
+        <button class="button" onclick:"location.reload();">Refresh</button>
 
       <script language=php>
         function matchResult($random){
@@ -119,8 +141,6 @@
             case 11: $symbol = "11_result";
                     break;
             case 12: $symbol = "12_result";
-                    break;
-            case 13: $symbol = "13_result";
                     break;
           }
 
