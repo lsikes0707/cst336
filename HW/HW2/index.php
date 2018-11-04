@@ -34,7 +34,7 @@
           <p>-Listen to classical music while learning</p>
           <p>-Keep some kind of mint handy while you study</p>
           
-          <p>Enjoy some Mozart while you practice:</p>
+          <p>Enjoy some Mozart while you practice, if you like:</p>
           <audio controls>
             <source src="audio/Mozart.mp3" type="audio/mpeg">
           </audio>
@@ -93,9 +93,11 @@
         </main>
         <br /><br /><br /><br /><br /><br />
         <br /><br /><br /><br /><br /><br />
-        <br /><br /><br /><br /><br /><br />
         
-        <button class="button" onclick:"location.reload();">Refresh</button>
+        <a href="index.php" class="button">Refresh</a>
+        
+        <br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br />
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->
         <footer>
