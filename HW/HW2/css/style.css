@@ -1,5 +1,10 @@
 #header {
     margin-left: 400px;
+    text-shadow: 2px 2px 4px;
+}
+
+#WelcomeText {
+    text-shadow:2px 2px 4px;
 }
 
 body {
@@ -71,6 +76,7 @@ footer{
 }
 
 .button:hover {background-color: #3e8e41}
+
 .button:active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;

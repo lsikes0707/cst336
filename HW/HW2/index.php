@@ -39,7 +39,7 @@
         <div class="flip-card-inner">
         <div class="flip-card-front">
           <h2>Integral</h2>
-          <?php $img = array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12);
+          <?php $img = array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13);
                 $random = array_rand($img); ?>
           <img src='img/<?php echo $random; ?>.png' alt="Integral<?php echo $random; ?>" style="width:300px;height:300px;">
         </div>
@@ -52,6 +52,14 @@
         </div>
 
       <script language=php>
+
+      $img_list = array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13);
+
+        /*function arrayShuffle($img_list){
+          $shuffled = shuffle($img_list);
+          return $shuffled;
+        }*/
+  
         function matchResult($random){
           switch ($random) {
             case 1: $symbol = "1_result";
@@ -77,6 +85,8 @@
             case 11: $symbol = "11_result";
                     break;
             case 12: $symbol = "12_result";
+                    break;
+            case 13: $symbol = "13_result";
                     break;
           }
           return "$symbol";
