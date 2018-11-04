@@ -10,68 +10,11 @@
         
         <link href="css/style.css" rel="stylesheet" type="text/css" />
         
-        <style>
-
-          .flip-card {
-            background-color: transparent;
-            width: 300px;
-            height: 200px;
-/*            border: 1px solid #f1f1f1;*/
-            perspective: 1000px;
+      <script>
+        function myFunction() {
+          location.reload();
         }
-
-        .flip-card-inner {
-          position: relative;
-          width: 100%;
-          height: 100%;
-          text-align: center;
-          transition: transform 0.8s;
-          transform-style: preserve-3d;
-        }
-
-        .flip-card:hover .flip-card-inner {
-          transform: rotateY(180deg);
-        }
-
-        .flip-card-front, .flip-card-back {
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          backface-visibility: hidden;
-        }
-
-        .flip-card-front {
-          background-color:#000066;
-          color: white;
-        }
-
-        .flip-card-back {
-          background-color: #00cc00;
-          color: white;
-          transform: rotateY(180deg);
-        }
-        
-        .button {
-          padding: 15px 25px;
-          font-size: 24px;
-          text-align: right;
-          cursor: pointer;
-          outline: none;
-          color: #fff;
-          background-color: #4CAF50;
-          border: none;
-          border-radius: 15px;
-          box-shadow: 0 9px #999;
-        }
-
-        .button:hover {background-color: #3e8e41}
-
-        .button:active {
-          background-color: #3e8e41;
-          box-shadow: 0 5px #666;
-          transform: translateY(4px);
-        }
-      </style>
+      </script>
     </head>
 <!-- closing head -->
     <!-- This is the body -->
@@ -83,8 +26,8 @@
         
         <div id="WelcomeText">
           <p>For some, Calculus comes easy, for others, it takes extra work to master the material.
-          This page will provide you an opportunity to test yourself on some of the more common
-          integrals. Hover you mouse over to reveal the solution to the integral on deck. Click the
+          This page will provide an opportunity to test yourself on some of the more common
+          integrals. Hover the mouse over the card to reveal the solution to the integral on deck. Click the
           "Refresh" button to view a new integral.</p>
           
           <p>Keep in mind some tools that can help with retaining the information:</p>
@@ -112,8 +55,6 @@
         </div>
         </div>
         </div>
-
-        <button class="button" onclick:"location.reload();">Refresh</button>
 
       <script language=php>
         function matchResult($random){
@@ -153,6 +94,8 @@
         <br /><br /><br /><br /><br /><br />
         <br /><br /><br /><br /><br /><br />
         <br /><br /><br /><br /><br /><br />
+        
+        <button class="button" onclick:"location.reload();">Refresh</button>
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->
         <footer>
