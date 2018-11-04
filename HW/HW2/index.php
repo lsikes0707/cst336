@@ -79,13 +79,21 @@
             case 12: $symbol = "12_result";
                     break;
           }
-
-        return "$symbol";
+          return "$symbol";
         }
+        
+        /*function altMatch($random){
+          while ($i < 13) {
+            $symbol = "$random_result";
+            $i++;
+          }
+          return $symbol
+        }*/
+
     
       </script>
 
-        </main>
+
         <br /><br /><br /><br /><br /><br />
         <br /><br /><br /><br /><br /><br />
         
@@ -105,7 +113,7 @@
             </figure>
         </footer>
         <!-- closing footer -->
-        
+        </main>        
     </body>
     <!-- closing body -->
 
