@@ -10,11 +10,6 @@
         
         <link href="css/style.css" rel="stylesheet" type="text/css" />
         
-      <script>
-        function myFunction() {
-          location.reload();
-        }
-      </script>
     </head>
 <!-- closing head -->
     <!-- This is the body -->
