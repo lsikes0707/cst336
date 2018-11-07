@@ -90,14 +90,14 @@
             <select name="category" style="color:black; font-size:1em">
                 <option value=""> - Select One - </option>
                 <option value="galaxy"> Galaxy </option>
-                <option value="eruptions"> Eruptions </option>
-                <option value="sea life"> Sea Life </option>
-                <option value="happiness"> Happiness </option>
+                <option> Eruptions </option>
+                <option> Sea Life </option>
+                <option> Happiness </option>
             </select><br /><br />
             <input type="submit" value="Submit" />
         </form>
         <br /> <br />
-                
+        <h2> You must type a keyword or select a category </h2>
             
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
