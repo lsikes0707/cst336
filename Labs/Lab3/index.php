@@ -47,7 +47,7 @@
             
         <!-- HTML form goes here! -->
         <form>
-            <input type="text" name="keyword" placeholder="keyword">
+            <input type="text" name="keyword" placeholder="keyword" value="">
             <!-- Post tutorial additions -->
             <div id="layout">
                 <input type="radio" name="layout" value="horizontal" id="layout_hor" />
@@ -59,9 +59,9 @@
             <select name="category" style="color:black; font-size:1.5em">
                 <option value=""> - Select One - </option>
                 <option value="galaxy" > Galaxy </option>
-                <option > Eruptions </option>
-                <option > Sea Life </option>
-                <option > Happiness </option>
+                <option value="eruptions" > Eruptions </option>
+                <option value="sea life" > Sea Life </option>
+                <option value="happiness" > Happiness </option>
             </select><br /><br />
             <input type="submit" value="Submit" />
         </form>
