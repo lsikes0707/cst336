@@ -37,7 +37,7 @@
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <?php
-                    for($i=0; $i<7; $i++) {
+                    for($i=0; $i<5; $i++) {
                         echo "<li data-target='#carousel-example-generic' data-slide-to='$i'";
                         echo ($i==0) ? "class='active'" : "";
                         echo "></li>";
@@ -48,7 +48,7 @@
             <!-- Wrapper for Images -->        
             <div class="carousel-inner" role="listbox">
                 <?php
-                    for($i=0; $i<7; $i++) {
+                    for($i=0; $i<5; $i++) {
                         do {
                             $randomIndex = rand(0,count($imageURLs));
                         } while (!isset($imageURLs[$randomIndex]));
@@ -73,31 +73,30 @@
         </a>
         </div>
         <?php
-            }
+            } // end Else
         ?>
+        
+        <br />
         <!-- HTML form goes here! -->
         <form>
-            <input type="text" name="keyword" placeholder="keyword" value="">
+            <input type="text" name="keyword" placeholder="keyword" value="<?=$_GET['keyword']?>"/>
             <!-- Post tutorial additions -->
-            <div id="layout">
-                <input type="radio" name="layout" value="horizontal" id="layout_hor" />
-                <label for="layout_hor"> Horizontal </label><br />
-                <input type="radio" name="layout" value="vertical" id="layout_vert" checked />
-                <label for="layout_vert"> Vertical </label><br />
-            </div>
+            <input type="radio" name="layout" value="horizontal" id="layout_hor"/>
+            <label for="layout_hor"> Horizontal </label><br />
+            <input type="radio" name="layout" value="vertical" id="layout_vert"/>
+            <label for="layout_vert"> Vertical </label><br />
+            
             <br />
-            <select name="category" style="color:black; font-size:1.5em">
+            <select name="category" style="color:black; font-size:1em">
                 <option value=""> - Select One - </option>
-                <option value="galaxy" > Galaxy </option>
-                <option value="eruptions" > Eruptions </option>
-                <option value="sea life" > Sea Life </option>
-                <option value="happiness" > Happiness </option>
+                <option value="galaxy"> Galaxy </option>
+                <option value="eruptions"> Eruptions </option>
+                <option value="sea life"> Sea Life </option>
+                <option value="happiness"> Happiness </option>
             </select><br /><br />
             <input type="submit" value="Submit" />
         </form>
         <br /> <br />
-            <!-- Controls Here -->
-            
                 
             
         </div>
