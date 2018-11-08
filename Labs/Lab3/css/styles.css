@@ -14,3 +14,7 @@
          margin: 0 auto;   
          width: 700px;
     }
+    
+    #layout {
+    border-style: solid;
+    }

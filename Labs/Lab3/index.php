@@ -17,6 +17,8 @@
         <title>Image Carousel</title>
         <meta charset="utf-8">
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
         <style>
             @import url("css.styles.css");
             body {
@@ -79,28 +81,29 @@
         <br />
         <!-- HTML form goes here! -->
         <form>
-            <input type="text" name="keyword" placeholder="keyword" value="<?=$_GET['keyword']?>"/>
-            <!-- Post tutorial additions -->
-            <input type="radio" name="layout" value="horizontal" id="layout_hor"/>
-            <label for="layout_hor"> Horizontal </label><br />
-            <input type="radio" name="layout" value="vertical" id="layout_vert"/>
-            <label for="layout_vert"> Vertical </label><br />
+            <div id="layout">
+                <input type="text" name="keyword" placeholder="keyword" value="<?=$_GET['keyword']?>"/>
+                <!-- Post tutorial additions -->
+                <input type="radio" name="layout" value="horizontal" id="layout_hor"/>
+                <label for="layout_hor"> Horizontal </label>
+                <input type="radio" name="layout" value="vertical" id="layout_vert" checked/>
+                <label for="layout_vert"> Vertical </label>
+            </div>
             
             <br />
             <select name="category" style="color:black; font-size:1em">
                 <option value=""> - Select One - </option>
-                <option value="galaxy"> Galaxy </option>
-                <option> Eruptions </option>
-                <option> Sea Life </option>
-                <option> Happiness </option>
+                <option value="galaxy" > Galaxy </option>
+                <option value="eruption" > Eruptions </option>
+                <option value="sea life" > Sea Life </option>
+                <option value="happy" > Happiness </option>
             </select><br /><br />
             <input type="submit" value="Submit" />
         </form>
         <br /> <br />
-        <h2> You must type a keyword or select a category </h2>
+        <h2><strong>You must type a keyword or select a category</strong></h2>
             
         </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        
     </body>
 </html>
