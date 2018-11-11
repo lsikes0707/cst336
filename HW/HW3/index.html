@@ -8,6 +8,7 @@
     <body>
         <form id="quiz_form" action="setSession.php" method="post">
             Name: <input type="text" name="name" id="fullName" size="25" />   <br />
+            
             How much work do you have: <br>
                 <select id="busy" name="state">
                   <option value="0">So Much To Do, Zero Time</option>
@@ -30,17 +31,20 @@
                 <label for="item4">There be wee ones here, laddy</label> <br><br />
                 
             I like: <br>
-                <input type="checkbox" id="sports"  name="likes" value="sports">
+                <input type="checkbox" id="sports"  name="likes[]" value="sports">
                 <label for="sports"> Sports </label> <br>
                 
-                <input type="checkbox" id="games" name="likes" value="games">
+                <input type="checkbox" id="games" name="likes[]" value="games">
                 <label for="games"> Video Games </label> <br>
                 
-                <input type="checkbox" id="edu"  name="likes" value="edu">
+                <input type="checkbox" id="edu"  name="likes[]" value="edu">
                 <label for="edu"> Learning </label> <br>
                 
-                <input type="checkbox" id="veg"  name="likes" value="veg">
-                <label for="veg"> Vegging </label> <br> <br />
+                <input type="checkbox" id="veg"  name="likes[]" value="dessert">
+                <label for="veg"> Desserts </label> <br> <br />
+                
+            What shows do you enjoy watching: <br /> 
+                <textarea name="comments" rows="10" cols="60">Your shows here</textarea><br />
                 
         <br/><br/>
                 <input type="button" value="Submit Data" name="submit"/>
