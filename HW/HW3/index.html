@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> What About You </title>
+        <meta charset = "utf-8" />
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <form id="quiz_form" action="setSession.php" method="post">
+            Name: <input type="text" name="name" id="fullName" size="25" />   <br />
+            How much work do you have: <br>
+                <select id="busy" name="state">
+                  <option value="0">So Much To Do, Zero Time</option>
+                  <option value="1">I've got a bit of free time</option>
+                  <option value="2">I could write a book in all my spare time</option>
+
+                  
+                </select>    <br /><br />
+            Maturity Level:    <br>
+                <input type="radio"  id="item1"  name="maturity"  value="adults" >
+                <label for="item1">All grown up here</label> <br>
+                
+                <input type="radio"  id="item2"  name="maturity" value="mixed">
+                <label for="item2">A group of big kids here</label> <br>
+                
+                <input type="radio"  id="item3"  name="maturity" value="youthful">
+                <label for="item3">Grown up, but a kid at heart</label> <br>
+                
+                <input type="radio"  id="item4"  name="maturity" value="kids">
+                <label for="item4">There be wee ones here, laddy</label> <br><br />
+                
+            I like: <br>
+                <input type="checkbox" id="sports"  name="likes" value="sports">
+                <label for="sports"> Sports </label> <br>
+                
+                <input type="checkbox" id="games" name="likes" value="games">
+                <label for="games"> Video Games </label> <br>
+                
+                <input type="checkbox" id="edu"  name="likes" value="edu">
+                <label for="edu"> Learning </label> <br>
+                
+                <input type="checkbox" id="veg"  name="likes" value="veg">
+                <label for="veg"> Vegging </label> <br> <br />
+                
+        <br/><br/>
+                <input type="button" value="Submit Data" name="submit"/>
+        </form>
+        
+        <footer>
+            <strong>CST-336 Internet Programming. Sikes</strong><br />
+            <strong>This web page is for academic purposes only.</strong>
+            <br />
+            <img id="logo" src="img/csumbLogo.jpg" alt="CSUMB Logo" width="30%"/>
+        </footer>
+  </body>
+</html>
