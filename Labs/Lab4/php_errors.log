@@ -1,0 +1,43 @@
+[14-Nov-2018 19:21:03 UTC] PHP Fatal error:  Call to undefined function displayResult() in /home/ubuntu/workspace/cst336/Labs/Lab4/scart/index.php on line 52
+[14-Nov-2018 19:21:03 UTC] PHP Stack trace:
+[14-Nov-2018 19:21:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab4/scart/index.php:0
+[14-Nov-2018 19:21:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/Labs/Lab4/scart/functions.php on line 7
+[14-Nov-2018 19:21:24 UTC] PHP Stack trace:
+[14-Nov-2018 19:21:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab4/scart/index.php:0
+[14-Nov-2018 19:21:24 UTC] PHP   2. displayResults() /home/ubuntu/workspace/cst336/Labs/Lab4/scart/index.php:52
+[15-Nov-2018 21:45:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/Labs/Lab4/scart/functions.php on line 7
+[15-Nov-2018 21:45:19 UTC] PHP Stack trace:
+[15-Nov-2018 21:45:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab4/scart/scart.php:0
+[15-Nov-2018 21:45:19 UTC] PHP   2. displayCart() /home/ubuntu/workspace/cst336/Labs/Lab4/scart/scart.php:58
+[15-Nov-2018 21:46:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/Labs/Lab4/scart/functions.php on line 7
+[15-Nov-2018 21:46:19 UTC] PHP Stack trace:
+[15-Nov-2018 21:46:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab4/scart/scart.php:0
+[15-Nov-2018 21:46:19 UTC] PHP   2. displayCart() /home/ubuntu/workspace/cst336/Labs/Lab4/scart/scart.php:58
+[15-Nov-2018 21:47:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/Labs/Lab4/scart/functions.php on line 8
+[15-Nov-2018 21:47:27 UTC] PHP Stack trace:
+[15-Nov-2018 21:47:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab4/scart/scart.php:0
+[15-Nov-2018 21:47:27 UTC] PHP   2. displayCart() /home/ubuntu/workspace/cst336/Labs/Lab4/scart/scart.php:58
+[18-Nov-2018 17:03:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/Labs/Lab4/scart/functions.php on line 8
+[18-Nov-2018 17:03:19 UTC] PHP Stack trace:
+[18-Nov-2018 17:03:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab4/scart/scart.php:0
+[18-Nov-2018 17:03:19 UTC] PHP   2. displayCart() /home/ubuntu/workspace/cst336/Labs/Lab4/scart/scart.php:58
+[18-Nov-2018 17:04:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/Labs/Lab4/scart/functions.php on line 8
+[18-Nov-2018 17:04:39 UTC] PHP Stack trace:
+[18-Nov-2018 17:04:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab4/scart/scart.php:0
+[18-Nov-2018 17:04:39 UTC] PHP   2. displayCart() /home/ubuntu/workspace/cst336/Labs/Lab4/scart/scart.php:58
+[18-Nov-2018 17:04:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/Labs/Lab4/scart/functions.php on line 8
+[18-Nov-2018 17:04:41 UTC] PHP Stack trace:
+[18-Nov-2018 17:04:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab4/scart/scart.php:0
+[18-Nov-2018 17:04:41 UTC] PHP   2. displayCart() /home/ubuntu/workspace/cst336/Labs/Lab4/scart/scart.php:58
+[18-Nov-2018 17:04:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/Labs/Lab4/scart/functions.php on line 8
+[18-Nov-2018 17:04:41 UTC] PHP Stack trace:
+[18-Nov-2018 17:04:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab4/scart/scart.php:0
+[18-Nov-2018 17:04:41 UTC] PHP   2. displayCart() /home/ubuntu/workspace/cst336/Labs/Lab4/scart/scart.php:58
+[18-Nov-2018 17:04:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/Labs/Lab4/scart/functions.php on line 8
+[18-Nov-2018 17:04:42 UTC] PHP Stack trace:
+[18-Nov-2018 17:04:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab4/scart/scart.php:0
+[18-Nov-2018 17:04:42 UTC] PHP   2. displayCart() /home/ubuntu/workspace/cst336/Labs/Lab4/scart/scart.php:58
+[18-Nov-2018 17:06:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/Labs/Lab4/scart/functions.php on line 8
+[18-Nov-2018 17:06:19 UTC] PHP Stack trace:
+[18-Nov-2018 17:06:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Labs/Lab4/scart/scart.php:0
+[18-Nov-2018 17:06:19 UTC] PHP   2. displayCart() /home/ubuntu/workspace/cst336/Labs/Lab4/scart/scart.php:58
