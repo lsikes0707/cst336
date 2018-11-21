@@ -41,6 +41,8 @@
         
         $stmt = $conn->prepare($sql);
         $stmt->execute($np);
+        
+        header('Location:admin.php');
     }
 
 ?>
