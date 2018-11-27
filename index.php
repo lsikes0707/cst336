@@ -8,7 +8,7 @@
             }
             body {
                 background-color: #000000;
-                color: #f40480;
+                color: /*#f75216*/#f40480;
             }
             
             /*a {
@@ -41,7 +41,10 @@
                 <a href="Labs/Lab1/index.html">Lab 1 </a><br>
                 <a href="Labs/Lab2/777/index.php"> Lab 2</a><br>
                 <a href="Labs/Lab3/index.php">Lab 3</a><br>
-                <a href="Labs/Lab4/index.php">Lab 4</a><br>
+                <a href="Labs/Lab4/scart/index.php">Lab 4</a><br>
+                <a href="Labs/Lab5/index.php">Lab 5</a><br>
+                <a href="Labs/Lab6/login.php">Lab 6</a><br>
+                <a href="Labs/Lab7/hangman/index.html">Lab 7</a><br>
                 
             </div>
         
@@ -50,6 +53,7 @@
                 <a href="HW/HW1/index.html">Homework 1</a><br>
                 <a href="HW/HW2/index.php">Homework 2</a><br>
                 <a href="HW/HW3/index.php">Homework 3</a><br>
+                <a href="HW/HW4/mygame/index.php">Homework 4</a><br>
             </div>
         </div>
 
