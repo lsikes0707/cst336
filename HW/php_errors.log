@@ -1,0 +1,191 @@
+[04-Nov-2018 02:35:06 UTC] PHP Warning:  rand() expects parameter 2 to be long, string given in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 128
+[04-Nov-2018 02:35:06 UTC] PHP Stack trace:
+[04-Nov-2018 02:35:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 02:35:06 UTC] PHP   2. rand() /home/ubuntu/workspace/cst336/HW/HW2/index.php:128
+[04-Nov-2018 03:18:48 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 132
+[04-Nov-2018 03:18:48 UTC] PHP Stack trace:
+[04-Nov-2018 03:18:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:19:14 UTC] PHP Parse error:  syntax error, unexpected '300' (T_LNUMBER), expecting ',' or ';' in /home/ubuntu/workspace/cst336/HW/HW2/inc/functions.php on line 39
+[04-Nov-2018 03:19:14 UTC] PHP Stack trace:
+[04-Nov-2018 03:19:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:19:25 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 132
+[04-Nov-2018 03:19:25 UTC] PHP Stack trace:
+[04-Nov-2018 03:19:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:19:59 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 132
+[04-Nov-2018 03:19:59 UTC] PHP Stack trace:
+[04-Nov-2018 03:19:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:20:30 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 132
+[04-Nov-2018 03:20:30 UTC] PHP Stack trace:
+[04-Nov-2018 03:20:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:22:56 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 132
+[04-Nov-2018 03:22:56 UTC] PHP Stack trace:
+[04-Nov-2018 03:22:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:23:17 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 132
+[04-Nov-2018 03:23:17 UTC] PHP Stack trace:
+[04-Nov-2018 03:23:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:23:18 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 132
+[04-Nov-2018 03:23:18 UTC] PHP Stack trace:
+[04-Nov-2018 03:23:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:23:19 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 132
+[04-Nov-2018 03:23:19 UTC] PHP Stack trace:
+[04-Nov-2018 03:23:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:23:20 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 132
+[04-Nov-2018 03:23:20 UTC] PHP Stack trace:
+[04-Nov-2018 03:23:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:23:21 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 132
+[04-Nov-2018 03:23:21 UTC] PHP Stack trace:
+[04-Nov-2018 03:23:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:23:22 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 132
+[04-Nov-2018 03:23:22 UTC] PHP Stack trace:
+[04-Nov-2018 03:23:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:24:46 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:24:46 UTC] PHP Stack trace:
+[04-Nov-2018 03:24:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:24:48 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:24:48 UTC] PHP Stack trace:
+[04-Nov-2018 03:24:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:24:49 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:24:49 UTC] PHP Stack trace:
+[04-Nov-2018 03:24:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:26:59 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:26:59 UTC] PHP Stack trace:
+[04-Nov-2018 03:26:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:27:09 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:27:09 UTC] PHP Stack trace:
+[04-Nov-2018 03:27:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:27:10 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:27:10 UTC] PHP Stack trace:
+[04-Nov-2018 03:27:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:27:10 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:27:10 UTC] PHP Stack trace:
+[04-Nov-2018 03:27:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:27:11 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:27:11 UTC] PHP Stack trace:
+[04-Nov-2018 03:27:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:27:12 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:27:12 UTC] PHP Stack trace:
+[04-Nov-2018 03:27:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:27:13 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:27:13 UTC] PHP Stack trace:
+[04-Nov-2018 03:27:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:27:13 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:27:13 UTC] PHP Stack trace:
+[04-Nov-2018 03:27:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:27:14 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:27:14 UTC] PHP Stack trace:
+[04-Nov-2018 03:27:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:27:15 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:27:15 UTC] PHP Stack trace:
+[04-Nov-2018 03:27:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:27:16 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:27:16 UTC] PHP Stack trace:
+[04-Nov-2018 03:27:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:27:17 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:27:17 UTC] PHP Stack trace:
+[04-Nov-2018 03:27:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:27:18 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:27:18 UTC] PHP Stack trace:
+[04-Nov-2018 03:27:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:29:00 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:29:00 UTC] PHP Stack trace:
+[04-Nov-2018 03:29:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:29:02 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:29:02 UTC] PHP Stack trace:
+[04-Nov-2018 03:29:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:29:26 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:29:26 UTC] PHP Stack trace:
+[04-Nov-2018 03:29:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:29:26 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:29:26 UTC] PHP Stack trace:
+[04-Nov-2018 03:29:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:36:25 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:36:25 UTC] PHP Stack trace:
+[04-Nov-2018 03:36:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:36:25 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:36:25 UTC] PHP Stack trace:
+[04-Nov-2018 03:36:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:36:26 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:36:26 UTC] PHP Stack trace:
+[04-Nov-2018 03:36:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:36:29 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:36:29 UTC] PHP Stack trace:
+[04-Nov-2018 03:36:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:36:30 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:36:30 UTC] PHP Stack trace:
+[04-Nov-2018 03:36:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:36:30 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:36:30 UTC] PHP Stack trace:
+[04-Nov-2018 03:36:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:36:31 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:36:31 UTC] PHP Stack trace:
+[04-Nov-2018 03:36:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:37:13 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:37:13 UTC] PHP Stack trace:
+[04-Nov-2018 03:37:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:37:35 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:37:35 UTC] PHP Stack trace:
+[04-Nov-2018 03:37:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:38:22 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:38:22 UTC] PHP Stack trace:
+[04-Nov-2018 03:38:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:38:25 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:38:25 UTC] PHP Stack trace:
+[04-Nov-2018 03:38:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:38:25 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:38:25 UTC] PHP Stack trace:
+[04-Nov-2018 03:38:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:38:39 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:38:39 UTC] PHP Stack trace:
+[04-Nov-2018 03:38:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:38:40 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:38:40 UTC] PHP Stack trace:
+[04-Nov-2018 03:38:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:43:32 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 127
+[04-Nov-2018 03:43:32 UTC] PHP Stack trace:
+[04-Nov-2018 03:43:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:43:32 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 127
+[04-Nov-2018 03:43:32 UTC] PHP Stack trace:
+[04-Nov-2018 03:43:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:44:13 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 132
+[04-Nov-2018 03:44:13 UTC] PHP Stack trace:
+[04-Nov-2018 03:44:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:44:28 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 132
+[04-Nov-2018 03:44:28 UTC] PHP Stack trace:
+[04-Nov-2018 03:44:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:44:52 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 127
+[04-Nov-2018 03:44:52 UTC] PHP Stack trace:
+[04-Nov-2018 03:44:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:45:23 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 128
+[04-Nov-2018 03:45:23 UTC] PHP Stack trace:
+[04-Nov-2018 03:45:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:45:24 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 128
+[04-Nov-2018 03:45:24 UTC] PHP Stack trace:
+[04-Nov-2018 03:45:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:45:45 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 128
+[04-Nov-2018 03:45:45 UTC] PHP Stack trace:
+[04-Nov-2018 03:45:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:46:08 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 127
+[04-Nov-2018 03:46:08 UTC] PHP Stack trace:
+[04-Nov-2018 03:46:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:46:08 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 127
+[04-Nov-2018 03:46:08 UTC] PHP Stack trace:
+[04-Nov-2018 03:46:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:46:10 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 127
+[04-Nov-2018 03:46:10 UTC] PHP Stack trace:
+[04-Nov-2018 03:46:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:46:10 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 127
+[04-Nov-2018 03:46:10 UTC] PHP Stack trace:
+[04-Nov-2018 03:46:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:46:32 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:46:32 UTC] PHP Stack trace:
+[04-Nov-2018 03:46:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:46:32 UTC] PHP Fatal error:  Call to undefined function matchResult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 131
+[04-Nov-2018 03:46:32 UTC] PHP Stack trace:
+[04-Nov-2018 03:46:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 03:52:43 UTC] PHP Fatal error:  Call to undefined function matchRestult() in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 166
+[04-Nov-2018 03:52:43 UTC] PHP Stack trace:
+[04-Nov-2018 03:52:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW2/index.php:0
+[04-Nov-2018 06:41:09 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 91
+[04-Nov-2018 06:42:07 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 91
+[04-Nov-2018 06:42:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 120
+[04-Nov-2018 06:44:15 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/HW/HW2/index.php on line 91

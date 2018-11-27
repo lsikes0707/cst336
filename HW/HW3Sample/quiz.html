@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Spanish Quiz! </title>
+        <meta charset = "utf-8" />
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id = "header">
+            <img id="maracas" src="img/maracas.png" alt="Maracas Logo" />
+            <h1 id = title> Spanish Quiz! </h1>
+        </div>
+        <form id = "quiz_form">
+            <label for="name">Name:</label>
+            <span class="error">* </span>
+            <input id="name" type="text" placeholder="Enter Name" name="name" value = "">
+            
+            <br /><br />
+            <hr>
+            <label for="Question1">1) How do you say 'Hello'?</label>
+            <span class="error">* </span>
+            <br /><br />
+            <input id="q1Answers" type="text" placeholder="Enter Answer" name="q1Answers" value = "">
+            
+            <br /><br />
+            <hr>
+            <label for="Question2">2) Check all the words that are colors.</label> 
+            <span class="error">* </span>
+            <br /><br />
+            <input id="rojo" type="checkbox" name="q2Answers[]" value="rojo" >
+            <label for="rojo">Rojo</label><br>
+            <input id="verde" type="checkbox" name="q2Answers[]" value="verde" >
+            <label for="verde">Verde</label><br>
+            <input id="azul" type="checkbox" name="q2Answers[]" value="azul" >
+            <label for="azul">Azul</label><br>
+            <input id="oso" type="checkbox" name="q2Answers[]" value="oso" >
+            <label for="oso">Oso</label>
+            <br /><br />
+            <hr>
+            <label for="Question3">3) Which word means 'food'?</label>
+            <span class="error">* </span>
+            <br /><br />
+            <input id="cena" type="radio" name="q3Answers" value="cena" >
+            <label for="cena">La cena</label><br>
+            <input id="desayuno" type="radio" name="q3Answers" value="desayuno" >
+            <label for="desayuno">El desayuno</label><br>
+            <input id="almuerzo" type="radio" name="q3Answers" value="almuerzo" >
+            <label for="almuerzo">El almuerzo</label><br>
+            <input id="comida" type="radio" name="q3Answers" value="comida" >
+            <label for="comida">La comida</label><br>
+            <br /><br />
+            <hr>
+            <label for="Question4">4) Fill in the blank.</label>
+            <span class="error">* </span>
+            <br /><br />
+            <label for="Question4sentece">¿ 
+            <select id="Question4" name="q4Answers">
+            <option value="1" >-</option>
+            <option value="2" >Cómo</option>
+            <option value="3" >Cuánto</option>
+            <option value="4" >Cuándo</option>
+            <option value="5" >Cuánta</option>
+            </select>
+            cuesta? </label>
+            <br /><br />
+            <hr>
+            <label for="Question5">5) What animal is in the picture?</label>
+            <span class="error">* </span>
+            <br /><br />
+            <img id="elephant" src="img/elephant.jpg" alt="elephant"/>
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <input id="perro" type="radio" name="q5Answers" value="perro" >
+            <label for="perro">El perro</label><br>
+            <input id="gato" type="radio" name="q5Answers" value="gato" >
+            <label for="gato">El gato</label><br>
+            <input id="tigre" type="radio" name="q5Answers" value="tigre" >
+            <label for="tigre">El tigre</label><br>
+            <input id="elefante" type="radio" name="q5Answers" value="elefante" >
+            <label for="elefante">El elefante</label><br>
+            <br /><br />
+            <input type="submit" name="submit" value="Submit">
+            <br /><br />
+            <hr>
+        </form>
+                <footer>
+            <strong>CST336 Internet Programming. By: Eli A. Manzo</strong><br />
+            <strong>This quiz is not a complete test of your Spanish knowledge.</strong>
+            <br />
+            <img id="logo" src="img/csumb_logo.png" alt="CSUMB Logo" />
+        </footer>
+    </body>
+</html>

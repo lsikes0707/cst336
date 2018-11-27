@@ -25,6 +25,11 @@ $(".letter").click(function() {
     disableButton($(this));
 });
 
+// View Hint
+$(".hint").click(function() {
+    giveHint($(this));
+});
+    
 
 // Reload page when clicking on the replay button
 $(".replayBtn").on("click", function() {
@@ -39,6 +44,19 @@ function initBoard() {
     // }
     for (var letter in selectedWord) {
         board.push("_");
+    }
+}
+
+function giveHint(click) {
+    $("#hints").show();
+    
+    if (click) {
+        $('#hints').hide();
+        $("#word").append("<br />");
+        $("#word").append("<span class='hint'>Hint: " + selectedHint + "</span>");
+
+    } else {
+        $('#hint').show();
     }
 }
 
@@ -106,8 +124,7 @@ function updateBoard() {
         $("#word").append(board[i] + " ");
     }
     
-    $("#word").append("<br />");
-    $("#word").append("<span class='hint'>Hint: " + selectedHint + "</span>");
+// this is where the Hint was
     
 }
 
