@@ -53,7 +53,7 @@
                 <a href="HW/HW1/index.html">Homework 1</a><br>
                 <a href="HW/HW2/index.php">Homework 2</a><br>
                 <a href="HW/HW3/index.php">Homework 3</a><br>
-                <a href="HW/HW4/mygame/index.php">Homework 4</a><br>
+                <a href="HW/HW4/platform.html">Homework 4</a><br>
             </div>
         </div>
 
