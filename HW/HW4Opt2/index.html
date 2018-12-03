@@ -1,0 +1,115 @@
+
+ 
+<html>
+	<head>
+		<title>Convict Dip</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script language="javascript" type="text/javascript" src="myGameLibrary.js"></script>
+		<script language="javascript" type="text/javascript" src="engine.js" defer></script>
+		<link rel="icon" type="image/x-icon" href="con.ico" />"
+	</head>
+	<body onload="loadComplete()">
+		<div id="header">
+    		<a href="index.html"><img src="ConvictTitle.png"></img></a>
+        </div>
+		<div id="gameWindow">
+			<div id="introScreen">
+				<div id="introScreenContent">
+					<div id="btnStart" class="button" onclick="startGame()">START GAME</div>
+					
+					<div id="btnRules" class="button" onclick="rules()">How to Play</div>
+					
+					<div id="btnAbout" class="button" onclick="info()">About Game</div>
+					
+					<div id="btnScore" class="button" onclick="highScores()">High Scores</div>
+					
+					<div id="btnSnd" class="button" onclick="sndOff()">Music Off</div>
+					
+					<div id="btnCreds" class="button" onclick="creds()">Credits</div>
+				</div>
+				<div id="ruleScreen">
+					Lead the Convicts to Freedom. Use the arrow keys to move the convict about the screen. You can go down, up, right, left, down-left, up-right, down-right, and up-left. Avoid the guards at all cost or you will be sent back to the slammer.
+					<div id="mainScreen" class="button" onclick="mainMenu()">back to main menu</div>
+				</div>
+				<div id="aboutScreen">The year is 2020, the prison system is at the worst it has ever been. An overpopulation in U.S. prisons has left them in squalor. There is a shortage of food and water, each cell now houses numerous inmates, the mortality rate is rising very rapidly and there is no longer a chance for rehabilitation. With the prisons in such turmoil the convicted prisoners at Shady Lake Prison have eradicated all gangs and hierarchical order.  They have settled their differences amicably and have decided to work collectively in order to stage an escape. The word has gotten out to the prison staff who do not take kindly to such a protest. It is now your mission to help these convicts escape. Each convict you help liberate, represents the abolishment of an oppressive prison system for a new system that provides rehabilitation. How many convicts can you free?
+				<div id="mainScreen" class="button" onclick="mainMenu()">back to main menu</div>
+				</div>
+				<div id="scoreChart">
+					<b>Scores coming soon....</b>
+					<div id="mainScreen" class="button" onclick="mainMenu()">back to main menu</div>
+				</div>
+				<div id="credScreen">
+					<h1>Art, Story, design,and<p>
+					 programming by</h1>
+					 </p>
+					Angel Moran/<a href="mailto:angel.moran.649@my.csun.edu">angel.moran.649@my.csun.edu</a>
+					<h1>Music by</h1> 
+					<p>
+					MoxoM [8bit ambient style] - Inspiration<a href="https://www.youtube.com/watch?v=cUR7OAKl9oY">Youtube Link</a>
+					</p>
+					<p>
+					Royalty Sir [Chip Music Royalty Free] - #1195 Chiptune<a href="https://www.youtube.com/watch?v=3hWbJnGx2uI">Youtube Link</a>
+					<p>
+					<div xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/" 
+					about="http://freemusicarchive.org/music/Goto80_and_the_Uwe_Schenk_Band/The_Ferret_Show/04_Thriller_Iller">
+					<span property="dct:title">Thriller Iller</span> 
+					/ <a rel="cc:attributionURL dct:creator"
+					 href="http://freemusicarchive.org/music/Goto80_and_the_Uwe_Schenk_Band/">
+					 http://freemusicarchive.org/music/Goto80_and_the_Uwe_Schenk_Band/</a> 
+					 / <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a>
+					 <p>
+					 all other sound was acquired from Freesound.org under the Public Domain Dedication <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a>
+					 </p>
+					 </div>
+				<div id="mainScreen" class="button" onclick="mainMenu()">back to main menu</div>
+				</div>
+			</div>
+			<div id="endScreen">
+				<div id="endScreenContent">
+					<h1 id="textEndMessage"> </h1>
+					<h2 id="lastScore"></h2>
+ 					<div id="highScoreMessage">The Struggle Continues For those left behind</div>
+					<div id="btnMain" class="button" onclick="btMain()">Back to main menu</div>
+					<div id="btnReplay" class="button" onclick="replay()">Replay</div>
+		
+					
+				</div>
+			</div>
+			<img id="introp" src="introp.png">
+			<img id="convict" src="prisoner.png">
+			<img id="guard" src="cop.gif">
+			<img id="guardA" src="cop_a.gif">
+			<img id="guardB" src="cop_b.gif">
+			<img id="guardC" src="cop_c.gif">
+			<img id="guardD" src="cop_d.gif">
+			<img id="guardE" src="cop_e.gif">
+			<img id="guardF" src="cop_f.gif">
+			<img id="guardG" src="cop_g.gif">
+			
+		</div>
+		<div id ="score">
+		Escaped Convicts: 0
+		</div>
+		
+	<audio id="sndFree" preload="auto">
+			<source src= "free.mp3">
+			<source src= "free.wav">
+	</audio>
+	<audio id="lock" preload="auto">
+			<source src= "lock.mp3">
+			<source src= "lock.wav">
+	</audio>
+	<audio id="sndTrack" preload="auto">
+			<source src= "song.mp3">
+			<source src= "song.wav">
+	</audio>
+	
+	<audio id="endTrack" preload="auto">
+			<source src= "thriller.mp3">
+			<source src= "thriller.wav">
+	</audio>
+	<audio id="intTrack" preload="auto">
+			<source src= "amb.mp3">
+			<source src= "amb.wav">
+	</body>
+</html>

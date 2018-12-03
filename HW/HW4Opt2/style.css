@@ -1,0 +1,213 @@
+@font-face{
+    font-family:'silkscreen_expandednormal';
+    src:url(fonts/slkscre-webfont.eot);
+    src:url(fonts/slkscre-webfont.eot?#iefix) format("embedded-opentype"),
+    url(fonts/slkscre-webfont.woff) format("woff"),
+    url(fonts/slkscre-webfont.ttf) format("truetype"),
+    url(fonts/slkscre-webfont.svg#silkscreen_expandednormal) format("svg");
+    font-weight:400;
+    font-style:normal
+    
+}
+body{
+    background-color:#000
+    
+}
+#gameWindow{
+    position:relative;
+    width:640px;
+    height:500px;
+    background-color:gray;
+    clear:both;
+    margin-left:auto;
+    margin-right:auto;
+    overflow:hidden;
+    font-family:'silkscreen_expandednormal'
+    
+}
+#introScreen{
+    position:absolute;
+    z-index:100;
+    width:640px;
+    height:500px;
+    background-color:rgba(0,0,0,0.7);
+    cursor:hand
+    
+}
+#introScreenContent{
+    position:absolute;
+    width:640px;
+    height:500px;
+    margin-top:135px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    cursor:hand;
+    font-size:14pt
+    
+}
+.button{
+    text-indent:0;
+    padding:10px;
+    border-radius:10px;
+    width:200px;
+    text-align:center;
+    cursor:hand;
+    cursor:pointer;
+    font-size:14pt;
+    background-color:#888;
+    color:#fff;
+    margin:10px auto;
+    z-index:20
+    
+}
+.button:hover{
+    background-color:#555
+    
+}
+#endScreen{
+    position:absolute;
+    z-index:101;
+    width:640px;
+    height:500px;
+    background-color:rgba(0,0,0,0.7);
+    display:none
+    
+}
+#endScreenContent{
+    position:relative;
+    width:640px;
+    height:500px;
+    padding:0;
+    margin:50px auto;
+    font-family:'silkscreen_expandednormal';
+    color:#fff;
+    text-align:center;
+    background:url(bars.png) no-repeat 27% 65%
+    
+}
+#textEndMessage{
+    color:#fff;
+    text-align:center
+    
+}
+#ruleScreen{
+    position:absolute;
+    text-indent:50px;
+    line-height:20px;
+    z-index:101;
+    width:640px;
+    height:500px;
+    background-color:rgba(0,0,0,0.8);
+    display:none;
+    color:#fff
+    
+}
+#aboutScreen{
+    text-indent:50px;
+    line-height:20px;
+    position:absolute;
+    z-index:101;
+    width:640px;
+    height:500px;
+    background-color:rgba(0,0,0,0.8);
+    display:none;
+    color:#fff
+    
+}
+#credScreen{
+    position:absolute;
+    line-height:20px;
+    z-index:101;
+    width:640px;
+    height:500px;
+    background-color:rgba(0,0,0,0.8);
+    display:none;
+    color:#fff
+    
+}
+#score{
+    position:relative;
+    color:#fff;
+    clear:both;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    font-family:'silkscreen_expandednormal'
+    
+}
+#header{
+    height:140px;
+    width:790px;
+    padding-left:0;
+    margin-left:auto;
+    margin-right:auto
+    
+}
+#header img{
+    height:140px;
+    float:bottom;
+    padding:0
+    
+}
+#convict{
+    position:absolute;
+    display:none;
+    z-index:2
+    
+}
+#guard,#guardA,#guardB,#guardC,#guardD,#guardE,#guardF,#guardG{
+    position:absolute;
+    z-index:1;
+    display:none
+    
+}
+.flip-horizontal{
+    -moz-transform:scaleX(-1);
+    -webkit-transform:scaleX(-1);
+    -o-transform:scaleX(-1);
+    transform:scaleX(-1);
+    -ms-filter:fliph;
+    filter:fliph
+    
+}
+#backGround{
+    position:absolute;
+    top:-10px;
+    left:-10px
+    
+}
+#otherBack{
+    position:absolute;
+    top:-10px;
+    left:625px
+    
+}
+#introp{
+    position:absolute;
+    left:190px;
+    top:15px;
+    z-index:3
+    
+}
+#name{
+    background-color:rgba(0,0,0,0.8);
+    color:#fff;
+    font-family:'silkscreen_expandednormal'
+    
+}
+#scoreChart{
+    position:absolute;
+    line-height:20px;
+    z-index:101;
+    width:640px;
+    height:500px;
+    background-color:rgba(0,0,0,0.8);
+    display:none;
+    color:#fff
+    
+}
+#lastScore{
+    line-height:10px
+    
+}
