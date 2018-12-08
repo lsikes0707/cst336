@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Platform Game</title>
+		<link  href="css/styles.css" rel="stylesheet" type="text/css" />
+
+		<script src="js/myGameLibrary.js"></script>
+		<script src="js/platformScript.js"></script>		
+		<link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body onload="">
+		<div id="gameWindow">
+		<img id="bg" src="media/bg.gif">
+			<div id="introScreen"><br><br>TIME IS RUNNING OUT TO SAVE THE PRINCE! <br><br> Use the arrow keys to move and jump.<br><br><font color="red"> Don't fall through the gaps. <br> <br> Watch out for the <img src="images/spikey.png" height="20px" width="30px"> SPIKY BALL!</font>
+			
+			<div id="btnStart" onclick="init();">START GAME</div>
+			</div>
+
+			<div id="loseScreen"><br><br><br><br><br><br><br>You Lose! <br><br><br>YOUR PRINCE IS MINE!
+				<br><br><h2>Tip: Can't make a gap? Try jumping as late as possible!</h2><br><br> <br><div id="btnTryAgain" onclick="tryAgain();"> Try Again? </div>
+			</div>
+
+
+			<div id="winScreen"><br><br><br><br><br>You Win! <br><br>Congrats on your mad skills!
+				<br> <div id="btnTryAgain" onclick="tryAgain();"> Try Again? </div>
+			</div>
+			
+			<div id="levelBar"></div>
+			
+			<div id="countdown"></div>
+
+			<img id='pc' src="media/standingg2.gif">
+			<img id="npc_prince" src="media/prince.gif">
+			<img id="npc_spikey" src="media/spikey.png">
+			<div id="lifebar"></div>
+			<div id="btnContinue" onclick="nextLevel();">CONTINUE</div>
+
+			<audio id="sndMusicCrawl" preload="auto">
+				<source src="media/crawl.mp3">
+			</audio>
+
+			<audio id="sndMusicCrawl2" preload="auto">
+				<source src="media/crawl2.mp3">
+			</audio>
+
+			<audio id="sndMusicBoss" preload="auto">
+				<source src="media/boss.mp3">
+			</audio>
+			
+			<audio id="sndJump" preload="auto">
+				<source src="media/boing.mp3">
+			</audio>
+
+			<audio id="sndWin" preload="auto">
+				<source src="media/cheer.mp3">
+			</audio>
+
+			<audio id="sndDie" preload="auto">
+				<source src="media/boo.mp3">
+			</audio>
+
+			<audio id="sndGameOver" preload="auto">
+				<source src="media/gameover.mp3">
+			</audio>
+
+			<audio id="sndGameWin" preload="auto">
+				<source src="media/win.mp3">
+			</audio>
+
+			<audio id="sndLevelUp" preload="auto">
+				<source src="media/levelup.mp3">
+			</audio>
+		</div>
+
+	</body>
+</html>

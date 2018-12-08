@@ -1,4 +1,3 @@
-import 'platform.html';
 // VARIABLES
 var pc; // player character
 var npc_prince; // non-player character
@@ -13,7 +12,6 @@ var numLives = 0;
 
 const GRAVITY = 1;
 var fallSpeed = 0;
-var platforms;
 var platforms = new Array();
 
 // LISTENERS

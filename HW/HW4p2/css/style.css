@@ -1,0 +1,200 @@
+#gameWindow{
+    font-family:'Press Start 2P',cursive;
+    position:relative;
+    width:800px;
+    height:400px;
+    background-color:#000;
+    overflow:hidden
+    
+}
+#bg{
+    position:absolute;
+    display:none
+    
+}
+#pc{
+    position:absolute
+    
+}
+#npc_prince{
+    position:absolute
+    
+}
+#npc_spikey{
+    position:absolute
+    
+}
+.platform{
+    position:absolute;
+    background-color:rgba(191,127,63,1);
+    box-shadow:2px 2px #000
+    
+}
+#btnContinue{
+    position:absolute;
+    left:350px;
+    top:320px;
+    display:none;
+    background-color:rgba(255,255,255,0.6);
+    color:#000;
+    padding:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:10px;
+    text-align:center;
+    font-size:14pt;
+    cursor:hand;
+    cursor:pointer;
+    z-index:10;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+    
+}
+#btnContinue:hover{
+    background-color:rgba(255,255,255,0.9)
+    
+}
+.msgGameOver{
+    font-size:50pt;
+    text-align:center;
+    color:#fff
+    
+}
+#lifebar{
+    position:absolute;
+    width:400px;
+    left:400px;
+    text-align:right;
+    margin-top:8px;
+    z-index:10
+    
+}
+#output,#levelBar{
+    font-size:20pt;
+    color:#fff;
+    position:absolute;
+    margin-top:10px;
+    z-index:10;
+    font-size:14pt;
+    text-shadow:2px 2px 0 #000,-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000
+    
+}
+#btnStart{
+    position:absolute;
+    left:280px;
+    top:280px;
+    display:block;
+    background-color:rgba(255,255,255,0.6);
+    color:#000;
+    padding:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:10px;
+    text-align:center;
+    font-size:14pt;
+    cursor:hand;
+    cursor:pointer;
+    z-index:10;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+    
+}
+#btnStart:hover{
+    background-color:rgba(255,255,255,0.2);
+    color:#ff0
+    
+}
+#btnTryAgain{
+    position:absolute;
+    left:280px;
+    top:280px;
+    display:block;
+    z-index:5000;
+    background-color:rgba(255,255,255,0.6);
+    color:#000;
+    padding:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:10px;
+    text-align:center;
+    font-size:14pt;
+    cursor:hand;
+    cursor:pointer;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+    
+}
+#btnTryAgain:hover{
+    background-color:rgba(255,255,255,0.2);
+    color:#ff0
+    
+}
+#introScreen{
+    background-color:rgba(25,25,25,1);
+    background-image:url(media/splashbg.jpg);
+    color:#fff;
+    width:800px;
+    height:400px;
+    position:relative;
+    z-index:500000;
+    text-align:center
+    
+}
+#loseScreen{
+    background-color:#000;
+    color:#fff;
+    width:800px;
+    height:400px;
+    position:relative;
+    z-index:500;
+    text-align:center;
+    display:none
+    
+}
+#winScreen{
+    background-color:#000;
+    background-image:url(media/splashwin.jpg);
+    color:#fff;
+    width:800px;
+    height:400px;
+    position:relative;
+    z-index:500;
+    text-align:center;
+    display:none
+    
+}
+.flip-h{
+    -moz-transform:scaleX(-1);
+    -webkit-transform:scaleX(-1);
+    -o-transform:scaleX(-1);
+    transform:scaleX(-1);
+    -ms-filter:fliph;
+    filter:fliph
+    
+}
+#countdown{
+    position:absolute;
+    top:10px;
+    left:350px;
+    color:#fff;
+    text-shadow:2px 2px 0 #000,-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
+    z-index:10
+    
+}
+h2{
+    font-size:8pt;
+    top:320px
+    
+}
