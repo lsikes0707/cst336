@@ -45,6 +45,8 @@
                 <a href="Labs/Lab5/index.php">Lab 5</a><br>
                 <a href="Labs/Lab6/login.php">Lab 6</a><br>
                 <a href="Labs/Lab7/hangman/index.html">Lab 7</a><br>
+                <a href="Labs/Lab8/pets/index.php">Lab 8 - Pet SHelter</a><br>
+                <a href="Labs/Lab8/csumb_quiz/index.php">Lab 8 - CSUMB Quiz</a><br>
                 
             </div>
         
@@ -54,6 +56,11 @@
                 <a href="HW/HW2/index.php">Homework 2</a><br>
                 <a href="HW/HW3/index.php">Homework 3</a><br>
                 <a href="HW/HW4/platform.html">Homework 4</a><br>
+            </div>
+            
+            <div id="finalproject">
+                <h2>Final Project</h2>
+                <a href="https://ssl336final.herokuapp.com/">SSL Island Mart</a><br>
             </div>
         </div>
 
