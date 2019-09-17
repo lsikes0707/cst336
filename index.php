@@ -60,7 +60,8 @@
             
             <div id="finalproject">
                 <h2>Final Project</h2>
-                <a href="https://ssl336final.herokuapp.com/">SSL Island Mart</a><br><br><br>
+                <a href="Final/index.php">SSL Island Mart</a><br><br><br>
+                <!--<a href="https://ssl336final.herokuapp.com/">SSL Island Mart</a><br><br><br> -->
             </div>
         </div>
 
