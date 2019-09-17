@@ -31,7 +31,7 @@
 
     <body>
         <header>
-             <h1><strong>Lacey Sikes's</strong> CST-336 Home Page</h1>   
+             <h1><strong>Lacey's</strong> CST-336 Home Page</h1>   
         </header>
 
     
@@ -68,7 +68,7 @@
         <!-- The footer goes inside the body but not always -->
         <footer id="footer">
             <hr>
-            Internet Programming. 2018&copy; Sikes <br />
+            Internet Programming. 2018&copy; Lacey <br />
             <strong>Disclaimer:</strong> The information in this webpage is fictitous. <br />
             It is used for academic purposes only.
             <figure id="csumbLogo">
