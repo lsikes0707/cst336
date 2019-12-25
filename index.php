@@ -45,7 +45,7 @@
                 <a href="Labs/Lab5/index.php">Lab 5</a><br>
                 <a href="Labs/Lab6/login.php">Lab 6</a><br>
                 <a href="Labs/Lab7/hangman/index.html">Lab 7</a><br>
-                <a href="Labs/Lab8/pets/index.php">Lab 8 - Pet SHelter</a><br>
+                <a href="Labs/Lab8/pets/index.php">Lab 8 - Pet Shelter</a><br>
                 <a href="Labs/Lab8/csumb_quiz/index.php">Lab 8 - CSUMB Quiz</a><br>
                 
             </div>
